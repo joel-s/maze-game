@@ -10,6 +10,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
+import GameMaze from '../../components/GameMaze';
 import s from './Maze.css';
 
 class Maze extends React.Component {
@@ -42,7 +43,7 @@ class Maze extends React.Component {
     return (
       <div>
         <h1>Maze...</h1>
-        <p>There seems to be something missing here...</p>
+        <GameMaze />
       </div>
     );
   }
